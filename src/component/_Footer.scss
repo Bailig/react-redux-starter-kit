@@ -1,0 +1,14 @@
+@import 'Variable';
+
+footer{
+    background: $navbarBackground;
+    .navbar-inverse{
+        background: transparent;
+        border: none;
+    }
+    p{
+        color: $navbarColor;
+        margin-top: 1em;
+        font-weight: bold;
+    }
+}
